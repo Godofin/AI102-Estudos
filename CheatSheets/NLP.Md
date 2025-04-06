@@ -32,3 +32,22 @@
   - O documento tem formatação ou listas? -> Sim(Compatível)
   - Contém apenas texto bruto e sem organização -> Não (Não é ideal)
   - Inclui imagens ou gráficos? Ignorado na extração
+
+## Palavras-Chave para Cada Tipo de Entidade no Reconhecimento de Padrões
+
+- Entidade Lista -> Catálogo de frases, termos pré-definidos pelo user, lista fixa de palavras, nomes de produtos/código específicos
+  - Difuso: variações
+  - Estrito: precisão absoluta
+- Entidade Predefinida -> datas, numeros, moedas, porcentagens, conceitos universais, entidades comuns(pessoas, locais)
+  - Estrito: formato exato (dd/mm/aaaa)
+  - Difuso: aceita 'ontem', 'próxima semana'
+- Entidade regex: padrões textuais complexos, códigos postais, cpf, placas de carro, expressão regular
+  - Estrito: segue o regex a risca
+  - Difuso: ignora maiúscula e minúscula
+Em resumo:
+- "Termos de um catálogo fixo?"
+  - Sim → Entidade Lista.
+    - "Exigir correspondência exata?" → Estrito.
+    - "Aceitar variações?" → Difuso.
+- "Padrões universais (datas, números)?" → Predefinida.
+- "Padrões complexos (regex)?" → Regex.

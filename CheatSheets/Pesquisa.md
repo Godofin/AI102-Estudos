@@ -10,3 +10,13 @@
   - PDF, imagem, documento binário e normalização de arquivos -> Arquivos
   - Saída JSON, dados aninhados, estrutura complexa -> Objetos
   - Dados tabulares, metadados, csv, excel, armazenamento estruturado -> Tabelas
+
+## Tipos de Odata para pesquisa
+
+- Azure Machine Learning: AmlSkill
+- Pesquisa web ou de uma API Web: WebApiSkill
+- Busca de termos em text: CustomEntityLookupSkill
+- Extrair conteúdo de arquivo/Documento: DocumentExtractionSkill
+- Busca de entidades em um documento: EntityRecognitionSkill
+- Extração de palavras chave em um documento: KeyPhraseExtractionSkill
+- Dividi conteúdos do documento: SplitSkill
