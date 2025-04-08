@@ -20,3 +20,10 @@
 - Busca de entidades em um documento: EntityRecognitionSkill
 - Extração de palavras chave em um documento: KeyPhraseExtractionSkill
 - Dividi conteúdos do documento: SplitSkill
+- Gerar links para entidades: EntityLinkingSkill
+
+## Formatos Suportados pelo Modelo de Leitura Pré-treinado do Azure AI Document Intelligence
+
+- PDF
+- XLSX
+- DOCX
