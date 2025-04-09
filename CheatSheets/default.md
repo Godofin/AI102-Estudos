@@ -3,7 +3,7 @@
 ## Firewall Custom Rules
 
 - Função RBAC
-  - O RBAC faz controle de permissões de usuários/entidades, não acesso a rede
+  - O RBAC faz controle de permissões de usuários/entidades a recursos, não acesso a rede
 - Tokens:
   - Tokens são usados para autenticação, não autorização de rede
 - Conceder acesso a uma rede virtual específica
