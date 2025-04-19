@@ -11,3 +11,12 @@
 - Conceder acesso a um intervalo de IP
   - o APP está em um host de internet, fora de uma vnet
 
+## Tipos de erros de conectividade com API
+
+- Incompatilbilidade
+  - Chave errado do recurso
+- Inválida
+  - Região incorreta
+- Excedeu cota
+  - Aumentar lvl de camada
+

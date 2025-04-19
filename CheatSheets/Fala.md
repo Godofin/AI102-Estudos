@@ -4,11 +4,11 @@
 
 - Quando usar cada modelo?
   - Ambiente Silencioso -> Padrão
-  - Ambiente barulhento -> Personalizado
+  - Ambiente barulhento -> Conversão de fala em texto Personalizado
   - Precisão média com baixo custo -> Enhanced
 - Palavras chave:
-  - Ambiente barulhento -> Personalizado
-  - Vocabulário técnico ou sotaques -> Personalizado
+  - Ambiente barulhento -> Conversão de fala em texto Personalizado
+  - Vocabulário técnico ou sotaques -> Conversão de fala em texto Personalizado
 - Armadilhas:
   - Base ou standard -> Só cenários ideais
   - Enhanced -> Não é melhor para ruídos extremos
